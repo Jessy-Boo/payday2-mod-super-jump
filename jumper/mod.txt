@@ -1,0 +1,19 @@
+{
+	"name" : "Jumper",
+	"description" : "Allows you to jump 3x higher.",
+	"author" : "Jessy-Boo",
+	"version" : "1.1",
+	"contact": "https://https://github.com/Jessy-Boo/payday2-mod-jumper",
+	"blt_version" : 2,
+	"priority" : 100,
+	"hooks" : [
+		{
+			"hook_id" : "lib/tweak_data/playertweakdata",
+			"script_path" : "lua/jump_force.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/playermaskoff",
+			"script_path" : "lua/casing_jump.lua"
+		}
+	]
+}
