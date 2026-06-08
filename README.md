@@ -1,9 +1,12 @@
-# payday2-jumper
+# payday2-mod-super-jump
  
-A Payday 2 mod that allows jumping 3x higher.
+A Payday 2 mod that allows jumping higher.
 
-It also allows jumping while in casing mode.
+Features:
+- Jump higher
+- Jump while in casing mode
+- Disable fall damage
 
 
 You will need SuperBLT
-Just put 'jumper' in your mods directory
+Just put 'Super Jump' in your mods directory
